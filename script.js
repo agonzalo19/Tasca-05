@@ -5,9 +5,9 @@
 //alert("Mi nombre es Andrea")
 
 // --------  Exercicio 3
-//var nombre = "Andrea "
-//var apellido = "Gonzalo"
-//var mensaje = nombre + apellido;
+//const nombre = "Andrea "
+//const apellido = "Gonzalo"
+//const mensaje = nombre + apellido;
 //console.log(mensaje)
 
 // --------  Exercicio 4
@@ -28,27 +28,14 @@
 	
 
 // -------- Exercicio 6
-// var ColorCotxe = "verd";
-// switch(ColorCotxe) {
-// 	case "blau" :
-// 		console.log("Tinc un cotxe de color blau.")
-// 		break;
-// 	
-// 	case "verd" :
-// 		console.log("Tinc un cotxe de color verd.")
-// 		break;
-// }
-// 
-// var Lletra = "u";
-// vswitch(Lletra) {
-// 	case "o" :
-// 		console.log("Tinc un cotxe"+ColorCotxe)
-// 		break;
-	
-// 	case "u" :
-// 		console.log("Tinc un cutxe de culur "+ColorCotxe+".")
-// 		break;
-// }
+
+const frase = 'Tinc un cotxe de color blau.';
+console.log(frase);
+console.log(frase.replace('blau', 'verd'));
+
+const regex = /o/g;
+console.log(frase.replace(regex, 'u'));
+
 
 // -------- Exercicio 7
 //var objectes = ['taula', 'cadira', 'ordinador', 'libreta'];
